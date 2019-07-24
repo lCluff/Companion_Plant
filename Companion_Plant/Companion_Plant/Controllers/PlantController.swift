@@ -7,3 +7,10 @@
 //
 
 import Foundation
+
+class PlantController {
+    
+    static let SharedInstance = PlantController()
+    
+    var plants: [Plant] = []
+}
