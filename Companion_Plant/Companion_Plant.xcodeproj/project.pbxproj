@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1686114C22E9006300946B39 /* PlantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1686114B22E9006300946B39 /* PlantDetailViewController.swift */; };
+		1686114E22E9007100946B39 /* PlantIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1686114D22E9007100946B39 /* PlantIndexViewController.swift */; };
+		1686115022E9008100946B39 /* PlantListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1686114F22E9008100946B39 /* PlantListTableViewController.swift */; };
 		16F89AFE22E8ECA8003668FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F89AFD22E8ECA8003668FC /* AppDelegate.swift */; };
 		16F89B0322E8ECA8003668FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16F89B0122E8ECA8003668FC /* Main.storyboard */; };
 		16F89B0522E8ECA9003668FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16F89B0422E8ECA9003668FC /* Assets.xcassets */; };
 		16F89B0822E8ECA9003668FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16F89B0622E8ECA9003668FC /* LaunchScreen.storyboard */; };
 		16F89B1222E8ED93003668FC /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F89B1122E8ED93003668FC /* Plant.swift */; };
 		16F89B1422E8ED9B003668FC /* PlantController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F89B1322E8ED9B003668FC /* PlantController.swift */; };
+		16F89B1822E8EE28003668FC /* Quite Magical - TTF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 16F89B1722E8EE28003668FC /* Quite Magical - TTF.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1686114B22E9006300946B39 /* PlantDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDetailViewController.swift; sourceTree = "<group>"; };
+		1686114D22E9007100946B39 /* PlantIndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantIndexViewController.swift; sourceTree = "<group>"; };
+		1686114F22E9008100946B39 /* PlantListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantListTableViewController.swift; sourceTree = "<group>"; };
 		16F89AFA22E8ECA8003668FC /* Companion_Plant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Companion_Plant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16F89AFD22E8ECA8003668FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		16F89B0222E8ECA8003668FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -24,6 +31,7 @@
 		16F89B0922E8ECA9003668FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16F89B1122E8ED93003668FC /* Plant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plant.swift; sourceTree = "<group>"; };
 		16F89B1322E8ED9B003668FC /* PlantController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantController.swift; sourceTree = "<group>"; };
+		16F89B1722E8EE28003668FC /* Quite Magical - TTF.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quite Magical - TTF.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				16F89AFD22E8ECA8003668FC /* AppDelegate.swift */,
+				16F89B1722E8EE28003668FC /* Quite Magical - TTF.ttf */,
 				16F89B0422E8ECA9003668FC /* Assets.xcassets */,
 				16F89B0922E8ECA9003668FC /* Info.plist */,
 			);
@@ -95,6 +104,9 @@
 			isa = PBXGroup;
 			children = (
 				16F89B1322E8ED9B003668FC /* PlantController.swift */,
+				1686114B22E9006300946B39 /* PlantDetailViewController.swift */,
+				1686114D22E9007100946B39 /* PlantIndexViewController.swift */,
+				1686114F22E9008100946B39 /* PlantListTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -157,6 +169,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16F89B1822E8EE28003668FC /* Quite Magical - TTF.ttf in Resources */,
 				16F89B0822E8ECA9003668FC /* LaunchScreen.storyboard in Resources */,
 				16F89B0522E8ECA9003668FC /* Assets.xcassets in Resources */,
 				16F89B0322E8ECA8003668FC /* Main.storyboard in Resources */,
@@ -172,7 +185,10 @@
 			files = (
 				16F89AFE22E8ECA8003668FC /* AppDelegate.swift in Sources */,
 				16F89B1422E8ED9B003668FC /* PlantController.swift in Sources */,
+				1686114E22E9007100946B39 /* PlantIndexViewController.swift in Sources */,
+				1686115022E9008100946B39 /* PlantListTableViewController.swift in Sources */,
 				16F89B1222E8ED93003668FC /* Plant.swift in Sources */,
+				1686114C22E9006300946B39 /* PlantDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,7 +336,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C3BD4H8DKG;
-				INFOPLIST_FILE = Companion_Plant/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -338,7 +354,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C3BD4H8DKG;
-				INFOPLIST_FILE = Companion_Plant/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
