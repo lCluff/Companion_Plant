@@ -62,6 +62,9 @@
                                         <state key="normal" title="Weather">
                                             <color key="titleColor" red="0.068854878640000006" green="0.27040371190000001" blue="0.057600802690000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="PjZ-Wu-gWo" kind="show" id="Dfw-Sb-x6b"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -93,20 +96,39 @@
             </objects>
             <point key="canvasLocation" x="1782.608695652174" y="-355.58035714285711"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="LoN-aZ-qUh">
+        <!--Weather Collection View Controller-->
+        <scene sceneID="9MB-ri-JXO">
             <objects>
-                <viewController id="W7Z-ps-50D" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="I2c-dn-96g">
+                <collectionViewController id="PjZ-Wu-gWo" customClass="WeatherCollectionViewController" customModule="Companion_Plant" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="S0L-wh-Wmf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="YDV-xu-c14"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dUC-uL-fee" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="1yK-ge-2Nb">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="amc-fK-3Yl">
+                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </view>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="PjZ-Wu-gWo" id="aou-Oi-OVc"/>
+                            <outlet property="delegate" destination="PjZ-Wu-gWo" id="Kwj-Gr-nCa"/>
+                        </connections>
+                    </collectionView>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4bd-9A-qD1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2667" y="-356"/>
+            <point key="canvasLocation" x="2680" y="-356"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Ts2-hD-vYa">
@@ -131,4 +153,5 @@
     <resources>
         <image name="vines" width="300" height="291.5"/>
     </resources>
+    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
 </document>
