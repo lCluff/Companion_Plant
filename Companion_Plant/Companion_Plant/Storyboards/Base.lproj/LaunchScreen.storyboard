@@ -1,81 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="Quite Magical - TTF.ttf">
-            <string>QuiteMagical-Regular</string>
-        </array>
-    </customFonts>
-    <scenes>
-        <!--View Controller-->
-        <scene sceneID="EHf-IW-A2E">
-            <objects>
-                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Companion Plant" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IN1-lp-9zW">
-                                <rect key="frame" x="32" y="115" width="350" height="78"/>
-                                <fontDescription key="fontDescription" name="QuiteMagical-Regular" family="Quite Magical" pointSize="33"/>
-                                <color key="textColor" red="0.0" green="0.26842084390862941" blue="0.091947430491955903" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="CgN-og-REs">
-                                <rect key="frame" x="0.0" y="583" width="214" height="304"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="214" id="8Eh-fq-2g2"/>
-                                    <constraint firstAttribute="height" constant="304" id="l2v-fP-mKD"/>
-                                </constraints>
-                            </imageView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zm1-eU-pWo">
-                                <rect key="frame" x="214" y="830" width="200" height="57"/>
-                                <color key="backgroundColor" red="0.45010876655578613" green="0.63510310649871826" blue="0.64314275979995728" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RdG-Sp-Sri">
-                                <rect key="frame" x="32" y="201" width="350" height="11"/>
-                                <color key="backgroundColor" red="0.45010876659999999" green="0.63510310650000001" blue="0.64314275980000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="11" id="PEH-t3-riM"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" red="0.88200932741165161" green="0.98973959684371948" blue="0.85096246004104614" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <constraints>
-                            <constraint firstAttribute="bottomMargin" secondItem="CgN-og-REs" secondAttribute="bottom" constant="-25" id="3MI-od-kdD"/>
-                            <constraint firstItem="RdG-Sp-Sri" firstAttribute="leading" secondItem="IN1-lp-9zW" secondAttribute="leading" id="5WF-LV-hUg"/>
-                            <constraint firstItem="CgN-og-REs" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="B6c-m5-QEe"/>
-                            <constraint firstItem="Zm1-eU-pWo" firstAttribute="leading" secondItem="CgN-og-REs" secondAttribute="trailing" id="EM6-JA-y7m"/>
-                            <constraint firstAttribute="trailing" secondItem="Zm1-eU-pWo" secondAttribute="trailing" id="Gle-8s-3Fw"/>
-                            <constraint firstItem="CgN-og-REs" firstAttribute="top" secondItem="IN1-lp-9zW" secondAttribute="bottom" constant="390" id="Msl-qv-k03"/>
-                            <constraint firstItem="RdG-Sp-Sri" firstAttribute="trailing" secondItem="IN1-lp-9zW" secondAttribute="trailing" id="OVy-4g-pgR"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IN1-lp-9zW" secondAttribute="trailing" constant="32" id="RZ5-Wu-EuO"/>
-                            <constraint firstItem="CgN-og-REs" firstAttribute="bottom" secondItem="Zm1-eU-pWo" secondAttribute="bottom" id="XZf-IJ-4AU"/>
-                            <constraint firstItem="RdG-Sp-Sri" firstAttribute="top" secondItem="IN1-lp-9zW" secondAttribute="bottom" constant="8" symbolic="YES" id="cNK-V2-fpl"/>
-                            <constraint firstItem="IN1-lp-9zW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="kNP-Iv-jLa"/>
-                            <constraint firstItem="Zm1-eU-pWo" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="830" id="tfd-AN-dxQ"/>
-                            <constraint firstItem="IN1-lp-9zW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="71" id="ts5-Lf-Jb4"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="52.173913043478265" y="375"/>
-        </scene>
-    </scenes>
-    <resources>
-        <image name="Image" width="482" height="707"/>
-    </resources>
+    <scenes/>
 </document>

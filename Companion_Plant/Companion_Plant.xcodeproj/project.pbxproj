@@ -10,6 +10,12 @@
 		1686114C22E9006300946B39 /* PlantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1686114B22E9006300946B39 /* PlantDetailViewController.swift */; };
 		1686114E22E9007100946B39 /* PlantIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1686114D22E9007100946B39 /* PlantIndexViewController.swift */; };
 		1686115022E9008100946B39 /* PlantListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1686114F22E9008100946B39 /* PlantListTableViewController.swift */; };
+		1686115322EA315100946B39 /* PlantList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1686115122EA315100946B39 /* PlantList.storyboard */; };
+		1686115522EB6F3400946B39 /* CalendarCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1686115422EB6F3400946B39 /* CalendarCollectionViewController.swift */; };
+		1686115822EB6F4A00946B39 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1686115722EB6F4A00946B39 /* Weather.swift */; };
+		1686115A22EB6F5200946B39 /* WeatherController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1686115922EB6F5200946B39 /* WeatherController.swift */; };
+		1686115C22EB6F5F00946B39 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1686115B22EB6F5F00946B39 /* DateHelper.swift */; };
+		1686115F22EB6FB400946B39 /* CalendarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1686115E22EB6FB400946B39 /* CalendarExtension.swift */; };
 		16F89AFE22E8ECA8003668FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F89AFD22E8ECA8003668FC /* AppDelegate.swift */; };
 		16F89B0322E8ECA8003668FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16F89B0122E8ECA8003668FC /* Main.storyboard */; };
 		16F89B0522E8ECA9003668FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16F89B0422E8ECA9003668FC /* Assets.xcassets */; };
@@ -23,6 +29,12 @@
 		1686114B22E9006300946B39 /* PlantDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDetailViewController.swift; sourceTree = "<group>"; };
 		1686114D22E9007100946B39 /* PlantIndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantIndexViewController.swift; sourceTree = "<group>"; };
 		1686114F22E9008100946B39 /* PlantListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantListTableViewController.swift; sourceTree = "<group>"; };
+		1686115222EA315100946B39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Companion_Plant/Storyboards/Base.lproj/PlantList.storyboard; sourceTree = "<group>"; };
+		1686115422EB6F3400946B39 /* CalendarCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCollectionViewController.swift; sourceTree = "<group>"; };
+		1686115722EB6F4A00946B39 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		1686115922EB6F5200946B39 /* WeatherController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherController.swift; sourceTree = "<group>"; };
+		1686115B22EB6F5F00946B39 /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
+		1686115E22EB6FB400946B39 /* CalendarExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarExtension.swift; sourceTree = "<group>"; };
 		16F89AFA22E8ECA8003668FC /* Companion_Plant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Companion_Plant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16F89AFD22E8ECA8003668FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		16F89B0222E8ECA8003668FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -45,6 +57,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1686115622EB6F3B00946B39 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1686114B22E9006300946B39 /* PlantDetailViewController.swift */,
+				1686115422EB6F3400946B39 /* CalendarCollectionViewController.swift */,
+				1686114D22E9007100946B39 /* PlantIndexViewController.swift */,
+				1686114F22E9008100946B39 /* PlantListTableViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		1686115D22EB6F7700946B39 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1686115E22EB6FB400946B39 /* CalendarExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		16F89AF122E8ECA8003668FC = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +99,7 @@
 				16F89B1022E8ED8A003668FC /* Storyboards */,
 				16F89B1522E8ED9F003668FC /* Models */,
 				16F89B1622E8EDA4003668FC /* Controllers */,
+				1686115D22EB6F7700946B39 /* Extensions */,
 			);
 			path = Companion_Plant;
 			sourceTree = "<group>";
@@ -75,6 +107,7 @@
 		16F89B0F22E8ED7D003668FC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				1686115B22EB6F5F00946B39 /* DateHelper.swift */,
 				16F89AFD22E8ECA8003668FC /* AppDelegate.swift */,
 				16F89B1722E8EE28003668FC /* Quite Magical - TTF.ttf */,
 				16F89B0422E8ECA9003668FC /* Assets.xcassets */,
@@ -86,6 +119,7 @@
 		16F89B1022E8ED8A003668FC /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				1686115122EA315100946B39 /* PlantList.storyboard */,
 				16F89B0122E8ECA8003668FC /* Main.storyboard */,
 				16F89B0622E8ECA9003668FC /* LaunchScreen.storyboard */,
 			);
@@ -96,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				16F89B1122E8ED93003668FC /* Plant.swift */,
+				1686115722EB6F4A00946B39 /* Weather.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -104,9 +139,8 @@
 			isa = PBXGroup;
 			children = (
 				16F89B1322E8ED9B003668FC /* PlantController.swift */,
-				1686114B22E9006300946B39 /* PlantDetailViewController.swift */,
-				1686114D22E9007100946B39 /* PlantIndexViewController.swift */,
-				1686114F22E9008100946B39 /* PlantListTableViewController.swift */,
+				1686115922EB6F5200946B39 /* WeatherController.swift */,
+				1686115622EB6F3B00946B39 /* View Controllers */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -172,6 +206,7 @@
 				16F89B1822E8EE28003668FC /* Quite Magical - TTF.ttf in Resources */,
 				16F89B0822E8ECA9003668FC /* LaunchScreen.storyboard in Resources */,
 				16F89B0522E8ECA9003668FC /* Assets.xcassets in Resources */,
+				1686115322EA315100946B39 /* PlantList.storyboard in Resources */,
 				16F89B0322E8ECA8003668FC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -183,18 +218,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1686115F22EB6FB400946B39 /* CalendarExtension.swift in Sources */,
+				1686115822EB6F4A00946B39 /* Weather.swift in Sources */,
+				1686115522EB6F3400946B39 /* CalendarCollectionViewController.swift in Sources */,
 				16F89AFE22E8ECA8003668FC /* AppDelegate.swift in Sources */,
 				16F89B1422E8ED9B003668FC /* PlantController.swift in Sources */,
 				1686114E22E9007100946B39 /* PlantIndexViewController.swift in Sources */,
+				1686115C22EB6F5F00946B39 /* DateHelper.swift in Sources */,
 				1686115022E9008100946B39 /* PlantListTableViewController.swift in Sources */,
 				16F89B1222E8ED93003668FC /* Plant.swift in Sources */,
 				1686114C22E9006300946B39 /* PlantDetailViewController.swift in Sources */,
+				1686115A22EB6F5200946B39 /* WeatherController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		1686115122EA315100946B39 /* PlantList.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1686115222EA315100946B39 /* Base */,
+			);
+			name = PlantList.storyboard;
+			sourceTree = "<group>";
+		};
 		16F89B0122E8ECA8003668FC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
