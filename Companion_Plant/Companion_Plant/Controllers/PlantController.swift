@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class PlantController {
     
     static let SharedInstance = PlantController()
@@ -16,16 +17,41 @@ class PlantController {
     
     //MARK: - CRUD Functions
     
-    func createPlant(withName name: String, plantDescription: String, plantImage: UIImage) {
+    func fetchPlants(searchTerm: String, completion: @escaping(Plant?) -> Void) {
+        let headers = [
+            "Authorization": "Bearer d3hrZm50dktJY0pJTTRudW5DMkhpQT09",
+            "Accept": "*/*",
+            "Host": "trefle.io",
+            "Accept-Encoding": "gzip, deflate",
+            "Connection": "keep-alive",
+        ]
         
+        let request = NSMutableURLRequest(url: NSURL(string: "https://trefle.io/api/plants/")! as URL)
+        request.httpMethod = "GET"
+        request.allHTTPHeaderFields = headers
+        
+        let session = URLSession.shared
+        let dataTask = session.dataTask(with: request as URLRequest, completionHandler: { (data, response, error) -> Void in
+            if (error != nil) {
+                print(error?.localizedDescription as Any)
+            } else {
+                let httpResponse = response as? HTTPURLResponse
+                print(httpResponse.debugDescription)
+            }
+        })
+        
+        dataTask.resume()
     }
     
-    func updatePlant() {
-        
-    }
+    //MARK: - CRUD FUNCTIONS
     
-    func deletePlant() {
-        
+    func createPlant(plant: Plant, withName: String) {
+      
     }
-    
+   
+    func deletePlant(plant: Plant) {
+        guard let plantIndex = plants.firstIndex(of: plant) else { return }
+        plants.remove(at: plantIndex)
+    }
+
 }

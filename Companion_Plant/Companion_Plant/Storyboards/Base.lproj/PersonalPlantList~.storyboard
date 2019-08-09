@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6iE-Ob-kN9">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Quite Magical - TTF.ttf">
+            <string>QuiteMagical-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Gk4-H1-Mub">
+            <objects>
+                <viewController id="Ww4-M6-ixP" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="u8s-nP-JhW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="aLB-lL-OsM">
+                                <rect key="frame" x="50" y="456" width="314" height="272"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TgX-Ys-3tD">
+                                        <rect key="frame" x="0.0" y="0.0" width="314" height="38"/>
+                                        <fontDescription key="fontDescription" name="QuiteMagical-Regular" family="Quite Magical" pointSize="30"/>
+                                        <state key="normal" title="Your plants">
+                                            <color key="titleColor" red="0.068854878640000006" green="0.27040371190000001" blue="0.057600802690000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="Qfu-lO-Pif" kind="show" id="ODe-a6-AlV"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vxw-gK-iuC">
+                                        <rect key="frame" x="0.0" y="78" width="314" height="38"/>
+                                        <fontDescription key="fontDescription" name="QuiteMagical-Regular" family="Quite Magical" pointSize="30"/>
+                                        <state key="normal" title="Watering schedule">
+                                            <color key="titleColor" red="0.068854878640000006" green="0.27040371190000001" blue="0.057600802690000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="ihF-5A-Hcm" kind="show" identifier="toCalendarView" id="eTF-y2-bds"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GY5-XA-ZDM">
+                                        <rect key="frame" x="0.0" y="156" width="314" height="38"/>
+                                        <fontDescription key="fontDescription" name="QuiteMagical-Regular" family="Quite Magical" pointSize="30"/>
+                                        <state key="normal" title="Plant Index">
+                                            <color key="titleColor" red="0.068854878640000006" green="0.27040371190000001" blue="0.057600802690000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="S3T-y8-agW" kind="show" id="2Bv-qZ-AbW"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X4X-Iu-7v8">
+                                        <rect key="frame" x="0.0" y="234" width="314" height="38"/>
+                                        <fontDescription key="fontDescription" name="QuiteMagical-Regular" family="Quite Magical" pointSize="30"/>
+                                        <state key="normal" title="Weather">
+                                            <color key="titleColor" red="0.068854878640000006" green="0.27040371190000001" blue="0.057600802690000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="Hqm-CE-rJu" kind="show" id="ASA-oI-MNk"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="d51-Te-jxK">
+                                <rect key="frame" x="0.0" y="151" width="414" height="199"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="199" id="Tc6-sG-ilV"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vines" translatesAutoresizingMaskIntoConstraints="NO" id="CSm-Pb-WQz">
+                                <rect key="frame" x="20" y="588" width="240" height="274"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="274" id="9of-wI-YBR"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="CSm-Pb-WQz" firstAttribute="bottom" secondItem="JEQ-ed-q6N" secondAttribute="bottom" id="9S2-sS-Uo2"/>
+                            <constraint firstItem="aLB-lL-OsM" firstAttribute="leading" secondItem="JEQ-ed-q6N" secondAttribute="leading" constant="50" id="D2r-Ff-iUb"/>
+                            <constraint firstItem="d51-Te-jxK" firstAttribute="top" secondItem="JEQ-ed-q6N" secondAttribute="top" constant="63" id="Fns-Fa-KBS"/>
+                            <constraint firstItem="CSm-Pb-WQz" firstAttribute="leading" secondItem="u8s-nP-JhW" secondAttribute="leading" constant="20" id="Pny-by-wfK"/>
+                            <constraint firstItem="JEQ-ed-q6N" firstAttribute="trailing" secondItem="CSm-Pb-WQz" secondAttribute="trailing" constant="154" id="YzR-oK-GL8"/>
+                            <constraint firstItem="d51-Te-jxK" firstAttribute="leading" secondItem="u8s-nP-JhW" secondAttribute="leading" id="ahe-RM-a24"/>
+                            <constraint firstItem="d51-Te-jxK" firstAttribute="centerX" secondItem="aLB-lL-OsM" secondAttribute="centerX" id="atm-sg-2x2"/>
+                            <constraint firstItem="JEQ-ed-q6N" firstAttribute="trailing" secondItem="aLB-lL-OsM" secondAttribute="trailing" constant="50" id="gjc-jy-y6k"/>
+                            <constraint firstItem="CSm-Pb-WQz" firstAttribute="top" secondItem="aLB-lL-OsM" secondAttribute="bottom" constant="-140" id="hLu-wl-k2b"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="JEQ-ed-q6N"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="kVH-dv-BXc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iMc-hI-FTD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1782.608695652174" y="-355.58035714285711"/>
+        </scene>
+        <!--Item 2-->
+        <scene sceneID="HG4-4J-xdr">
+            <objects>
+                <viewController storyboardIdentifier="UIViewController-Qfu-lO-Pif" id="Qfu-lO-Pif" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nhk-Ra-VX8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="dRX-SV-nYc"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="wYt-CY-Zeu"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t8T-x9-fhI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2439" y="-1080"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="gG3-XN-hj4">
+            <objects>
+                <tableViewController storyboardIdentifier="UITableViewController-UAO-IC-jw6" id="UAO-IC-jw6" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="iA8-sW-OLF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="zaV-50-W8i">
+                                <rect key="frame" x="0.0" y="28" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="zaV-50-W8i" id="5hC-dm-Soo">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="UAO-IC-jw6" id="uIc-NW-EUZ"/>
+                            <outlet property="delegate" destination="UAO-IC-jw6" id="8U5-p6-CsQ"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Item" id="VIa-r9-YQO"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L9p-9y-fdn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3078" y="-1819"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Ts2-hD-vYa">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6iE-Ob-kN9" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" id="UFk-G0-Ahh">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.068854878640000006" green="0.27040371190000001" blue="0.057600802690000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Ww4-M6-ixP" kind="relationship" relationship="rootViewController" id="iWj-YB-4DI"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jBf-Ti-Ih1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="872.46376811594212" y="-355.58035714285711"/>
+        </scene>
+        <!--PlantIndex-->
+        <scene sceneID="W6H-TH-Bgi">
+            <objects>
+                <viewControllerPlaceholder storyboardName="PlantIndex" id="S3T-y8-agW" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kSW-pB-1Jw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2846" y="-391"/>
+        </scene>
+        <!--Weather-->
+        <scene sceneID="upg-oS-Lo7">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Weather" id="Hqm-CE-rJu" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kuz-e5-y4O" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2856.521739130435" y="-356.25"/>
+        </scene>
+        <!--Calendar-->
+        <scene sceneID="8bg-aP-HxM">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Calendar" id="ihF-5A-Hcm" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AaZ-S7-R5J" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2859" y="-307"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo" width="410" height="252"/>
+        <image name="vines" width="300" height="291.5"/>
+    </resources>
+    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+</document>

@@ -6,6 +6,10 @@ target 'Companion_Plant' do
   use_frameworks!
 
   # Pods for Companion_Plant
-pod 'Firebase/Analytics'
 pod 'Firebase/Database'
+pod 'Firebase/Analytics'
+pod 'Firebase/Firestore'
+pod 'FirebaseCore'
+
+
 end

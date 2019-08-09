@@ -3,22 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		160BF48E22EF69F40076C654 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160BF48D22EF69F40076C654 /* CalendarViewController.swift */; };
+		160D2F5322F200CA006CBC73 /* WeatherForecastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160D2F5222F200CA006CBC73 /* WeatherForecastViewController.swift */; };
+		160D2F5722F2011B006CBC73 /* FirebaseDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160D2F5622F2011B006CBC73 /* FirebaseDatabase.swift */; };
+		161A94E422FCC55D0030E053 /* IndexPlantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161A94E322FCC55D0030E053 /* IndexPlantDetailViewController.swift */; };
+		16384B7522EF6E320033A2B0 /* DateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16384B7422EF6E320033A2B0 /* DateCollectionViewCell.swift */; };
+		16384B7722EF6ED80033A2B0 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16384B7622EF6ED80033A2B0 /* Calendar.swift */; };
+		165BF59022FE0E9A00CCABBA /* montserrat in Resources */ = {isa = PBXBuildFile; fileRef = 165BF58F22FE0E9A00CCABBA /* montserrat */; };
+		167C622E22F9DD4A00541671 /* ForecastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167C622D22F9DD4A00541671 /* ForecastTableViewCell.swift */; };
 		1686114C22E9006300946B39 /* PlantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1686114B22E9006300946B39 /* PlantDetailViewController.swift */; };
 		1686114E22E9007100946B39 /* PlantIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1686114D22E9007100946B39 /* PlantIndexViewController.swift */; };
 		1686115022E9008100946B39 /* PlantListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1686114F22E9008100946B39 /* PlantListTableViewController.swift */; };
-		1686115322EA315100946B39 /* PlantList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1686115122EA315100946B39 /* PlantList.storyboard */; };
-		1686115522EB6F3400946B39 /* CalendarCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1686115422EB6F3400946B39 /* CalendarCollectionViewController.swift */; };
 		1686115822EB6F4A00946B39 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1686115722EB6F4A00946B39 /* Weather.swift */; };
-		1686115A22EB6F5200946B39 /* WeatherController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1686115922EB6F5200946B39 /* WeatherController.swift */; };
-		1686115C22EB6F5F00946B39 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1686115B22EB6F5F00946B39 /* DateHelper.swift */; };
-		1686115F22EB6FB400946B39 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1686115E22EB6FB400946B39 /* Calendar.swift */; };
 		1686116122EB70A900946B39 /* GoogleService-Info (2).plist in Resources */ = {isa = PBXBuildFile; fileRef = 1686116022EB70A900946B39 /* GoogleService-Info (2).plist */; };
-		1686116322EB727F00946B39 /* CalendarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1686116222EB727F00946B39 /* CalendarController.swift */; };
-		1686116522EB7E3E00946B39 /* WeatherCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1686116422EB7E3E00946B39 /* WeatherCollectionViewController.swift */; };
+		169BE56522FDDD370052F81C /* CalendarAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169BE56422FDDD370052F81C /* CalendarAnimation.swift */; };
+		16C1B47422F8C8C400CCE1A2 /* WeatherController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C1B47322F8C8C400CCE1A2 /* WeatherController.swift */; };
+		16C1B47922F8E9ED00CCE1A2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C1B47822F8E9ED00CCE1A2 /* Extensions.swift */; };
+		16C1B47B22F8EAB100CCE1A2 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C1B47A22F8EAB100CCE1A2 /* Location.swift */; };
+		16C1B47D22F8EB8400CCE1A2 /* ForecastWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C1B47C22F8EB8400CCE1A2 /* ForecastWeather.swift */; };
 		16F89AFE22E8ECA8003668FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F89AFD22E8ECA8003668FC /* AppDelegate.swift */; };
 		16F89B0322E8ECA8003668FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16F89B0122E8ECA8003668FC /* Main.storyboard */; };
 		16F89B0522E8ECA9003668FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16F89B0422E8ECA9003668FC /* Assets.xcassets */; };
@@ -26,22 +32,28 @@
 		16F89B1222E8ED93003668FC /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F89B1122E8ED93003668FC /* Plant.swift */; };
 		16F89B1422E8ED9B003668FC /* PlantController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F89B1322E8ED9B003668FC /* PlantController.swift */; };
 		16F89B1822E8EE28003668FC /* Quite Magical - TTF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 16F89B1722E8EE28003668FC /* Quite Magical - TTF.ttf */; };
-		EE70C4F62742CE44775DB9C4 /* Pods_Companion_Plant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D74AF1FBADE9CBB034691F /* Pods_Companion_Plant.framework */; };
+		21B9B5FF9CAB87EB39906F98 /* Pods_Companion_Plant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D13BF3B7BD99E34BBF14CC2 /* Pods_Companion_Plant.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		160BF48D22EF69F40076C654 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		160D2F5222F200CA006CBC73 /* WeatherForecastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherForecastViewController.swift; sourceTree = "<group>"; };
+		160D2F5622F2011B006CBC73 /* FirebaseDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseDatabase.swift; sourceTree = "<group>"; };
+		161A94E322FCC55D0030E053 /* IndexPlantDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexPlantDetailViewController.swift; sourceTree = "<group>"; };
+		16384B7422EF6E320033A2B0 /* DateCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCollectionViewCell.swift; sourceTree = "<group>"; };
+		16384B7622EF6ED80033A2B0 /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
+		165BF58F22FE0E9A00CCABBA /* montserrat */ = {isa = PBXFileReference; lastKnownFileType = folder; name = montserrat; path = ../../montserrat; sourceTree = "<group>"; };
+		167C622D22F9DD4A00541671 /* ForecastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastTableViewCell.swift; sourceTree = "<group>"; };
 		1686114B22E9006300946B39 /* PlantDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDetailViewController.swift; sourceTree = "<group>"; };
 		1686114D22E9007100946B39 /* PlantIndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantIndexViewController.swift; sourceTree = "<group>"; };
 		1686114F22E9008100946B39 /* PlantListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantListTableViewController.swift; sourceTree = "<group>"; };
-		1686115222EA315100946B39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Companion_Plant/Storyboards/Base.lproj/PlantList.storyboard; sourceTree = "<group>"; };
-		1686115422EB6F3400946B39 /* CalendarCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCollectionViewController.swift; sourceTree = "<group>"; };
 		1686115722EB6F4A00946B39 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
-		1686115922EB6F5200946B39 /* WeatherController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherController.swift; sourceTree = "<group>"; };
-		1686115B22EB6F5F00946B39 /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
-		1686115E22EB6FB400946B39 /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
 		1686116022EB70A900946B39 /* GoogleService-Info (2).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (2).plist"; sourceTree = "<group>"; };
-		1686116222EB727F00946B39 /* CalendarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarController.swift; sourceTree = "<group>"; };
-		1686116422EB7E3E00946B39 /* WeatherCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCollectionViewController.swift; sourceTree = "<group>"; };
+		169BE56422FDDD370052F81C /* CalendarAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarAnimation.swift; sourceTree = "<group>"; };
+		16C1B47322F8C8C400CCE1A2 /* WeatherController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherController.swift; sourceTree = "<group>"; };
+		16C1B47822F8E9ED00CCE1A2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		16C1B47A22F8EAB100CCE1A2 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		16C1B47C22F8EB8400CCE1A2 /* ForecastWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastWeather.swift; sourceTree = "<group>"; };
 		16F89AFA22E8ECA8003668FC /* Companion_Plant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Companion_Plant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16F89AFD22E8ECA8003668FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		16F89B0222E8ECA8003668FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,9 +63,9 @@
 		16F89B1122E8ED93003668FC /* Plant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plant.swift; sourceTree = "<group>"; };
 		16F89B1322E8ED9B003668FC /* PlantController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantController.swift; sourceTree = "<group>"; };
 		16F89B1722E8EE28003668FC /* Quite Magical - TTF.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quite Magical - TTF.ttf"; sourceTree = "<group>"; };
-		17D74AF1FBADE9CBB034691F /* Pods_Companion_Plant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Companion_Plant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F638075CA77FCDCBD993D23 /* Pods-Companion_Plant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Companion_Plant.debug.xcconfig"; path = "Target Support Files/Pods-Companion_Plant/Pods-Companion_Plant.debug.xcconfig"; sourceTree = "<group>"; };
-		C1D3A6A88E31E21EBF40CFF5 /* Pods-Companion_Plant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Companion_Plant.release.xcconfig"; path = "Target Support Files/Pods-Companion_Plant/Pods-Companion_Plant.release.xcconfig"; sourceTree = "<group>"; };
+		273214F9E25E084556FF7678 /* Pods-Companion_Plant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Companion_Plant.debug.xcconfig"; path = "Target Support Files/Pods-Companion_Plant/Pods-Companion_Plant.debug.xcconfig"; sourceTree = "<group>"; };
+		3CD421660E02918B5C214D05 /* Pods-Companion_Plant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Companion_Plant.release.xcconfig"; path = "Target Support Files/Pods-Companion_Plant/Pods-Companion_Plant.release.xcconfig"; sourceTree = "<group>"; };
+		9D13BF3B7BD99E34BBF14CC2 /* Pods_Companion_Plant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Companion_Plant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,30 +73,51 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE70C4F62742CE44775DB9C4 /* Pods_Companion_Plant.framework in Frameworks */,
+				21B9B5FF9CAB87EB39906F98 /* Pods_Companion_Plant.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		058638251E0A214F9487CD2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D13BF3B7BD99E34BBF14CC2 /* Pods_Companion_Plant.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1665A97522EFA3F600056D50 /* View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				16384B7422EF6E320033A2B0 /* DateCollectionViewCell.swift */,
+				167C622D22F9DD4A00541671 /* ForecastTableViewCell.swift */,
+			);
+			path = "View Cells";
+			sourceTree = "<group>";
+		};
 		1686115622EB6F3B00946B39 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				1686114B22E9006300946B39 /* PlantDetailViewController.swift */,
-				1686115422EB6F3400946B39 /* CalendarCollectionViewController.swift */,
+				161A94E322FCC55D0030E053 /* IndexPlantDetailViewController.swift */,
+				160D2F5222F200CA006CBC73 /* WeatherForecastViewController.swift */,
 				1686114D22E9007100946B39 /* PlantIndexViewController.swift */,
 				1686114F22E9008100946B39 /* PlantListTableViewController.swift */,
-				1686116422EB7E3E00946B39 /* WeatherCollectionViewController.swift */,
+				160BF48D22EF69F40076C654 /* CalendarViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
 		};
-		1686115D22EB6F7700946B39 /* Extensions */ = {
+		16C1B47522F8C95D00CCE1A2 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				16C1B47822F8E9ED00CCE1A2 /* Extensions.swift */,
+				160D2F5622F2011B006CBC73 /* FirebaseDatabase.swift */,
+				169BE56422FDDD370052F81C /* CalendarAnimation.swift */,
 			);
-			path = Extensions;
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		16F89AF122E8ECA8003668FC = {
@@ -93,8 +126,8 @@
 				16F89AFC22E8ECA8003668FC /* Companion_Plant */,
 				16F89AFB22E8ECA8003668FC /* Products */,
 				16F89B0F22E8ED7D003668FC /* Resources */,
-				2217E814DA2F1FF73F3E7781 /* Pods */,
-				D6613F9B98DB205E77472C65 /* Frameworks */,
+				3F5046E756F5CF202849A577 /* Pods */,
+				058638251E0A214F9487CD2F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,7 +145,8 @@
 				16F89B1022E8ED8A003668FC /* Storyboards */,
 				16F89B1522E8ED9F003668FC /* Models */,
 				16F89B1622E8EDA4003668FC /* Controllers */,
-				1686115D22EB6F7700946B39 /* Extensions */,
+				1665A97522EFA3F600056D50 /* View Cells */,
+				16C1B47522F8C95D00CCE1A2 /* Helpers */,
 			);
 			path = Companion_Plant;
 			sourceTree = "<group>";
@@ -120,9 +154,9 @@
 		16F89B0F22E8ED7D003668FC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				1686115B22EB6F5F00946B39 /* DateHelper.swift */,
 				16F89AFD22E8ECA8003668FC /* AppDelegate.swift */,
 				16F89B1722E8EE28003668FC /* Quite Magical - TTF.ttf */,
+				165BF58F22FE0E9A00CCABBA /* montserrat */,
 				16F89B0422E8ECA9003668FC /* Assets.xcassets */,
 				16F89B0922E8ECA9003668FC /* Info.plist */,
 				1686116022EB70A900946B39 /* GoogleService-Info (2).plist */,
@@ -133,7 +167,6 @@
 		16F89B1022E8ED8A003668FC /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				1686115122EA315100946B39 /* PlantList.storyboard */,
 				16F89B0122E8ECA8003668FC /* Main.storyboard */,
 				16F89B0622E8ECA9003668FC /* LaunchScreen.storyboard */,
 			);
@@ -143,8 +176,10 @@
 		16F89B1522E8ED9F003668FC /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				1686115E22EB6FB400946B39 /* Calendar.swift */,
 				16F89B1122E8ED93003668FC /* Plant.swift */,
+				16384B7622EF6ED80033A2B0 /* Calendar.swift */,
+				16C1B47A22F8EAB100CCE1A2 /* Location.swift */,
+				16C1B47C22F8EB8400CCE1A2 /* ForecastWeather.swift */,
 				1686115722EB6F4A00946B39 /* Weather.swift */,
 			);
 			path = Models;
@@ -154,28 +189,19 @@
 			isa = PBXGroup;
 			children = (
 				16F89B1322E8ED9B003668FC /* PlantController.swift */,
-				1686115922EB6F5200946B39 /* WeatherController.swift */,
-				1686116222EB727F00946B39 /* CalendarController.swift */,
+				16C1B47322F8C8C400CCE1A2 /* WeatherController.swift */,
 				1686115622EB6F3B00946B39 /* View Controllers */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		2217E814DA2F1FF73F3E7781 /* Pods */ = {
+		3F5046E756F5CF202849A577 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1F638075CA77FCDCBD993D23 /* Pods-Companion_Plant.debug.xcconfig */,
-				C1D3A6A88E31E21EBF40CFF5 /* Pods-Companion_Plant.release.xcconfig */,
+				273214F9E25E084556FF7678 /* Pods-Companion_Plant.debug.xcconfig */,
+				3CD421660E02918B5C214D05 /* Pods-Companion_Plant.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		D6613F9B98DB205E77472C65 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				17D74AF1FBADE9CBB034691F /* Pods_Companion_Plant.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,7 +215,7 @@
 				16F89AF622E8ECA8003668FC /* Sources */,
 				16F89AF722E8ECA8003668FC /* Frameworks */,
 				16F89AF822E8ECA8003668FC /* Resources */,
-				6D1CF8C0A85D8E49EBFB724C /* [CP] Embed Pods Frameworks */,
+				03544C4D9A19C993E89A494C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -241,15 +267,32 @@
 				16F89B1822E8EE28003668FC /* Quite Magical - TTF.ttf in Resources */,
 				16F89B0822E8ECA9003668FC /* LaunchScreen.storyboard in Resources */,
 				16F89B0522E8ECA9003668FC /* Assets.xcassets in Resources */,
-				1686115322EA315100946B39 /* PlantList.storyboard in Resources */,
 				1686116122EB70A900946B39 /* GoogleService-Info (2).plist in Resources */,
 				16F89B0322E8ECA8003668FC /* Main.storyboard in Resources */,
+				165BF59022FE0E9A00CCABBA /* montserrat in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		03544C4D9A19C993E89A494C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Companion_Plant/Pods-Companion_Plant-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Companion_Plant/Pods-Companion_Plant-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Companion_Plant/Pods-Companion_Plant-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		39D12ECCE840320319C73D25 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -272,23 +315,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6D1CF8C0A85D8E49EBFB724C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Companion_Plant/Pods-Companion_Plant-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Companion_Plant/Pods-Companion_Plant-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Companion_Plant/Pods-Companion_Plant-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -296,33 +322,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1686115F22EB6FB400946B39 /* Calendar.swift in Sources */,
-				1686116322EB727F00946B39 /* CalendarController.swift in Sources */,
 				1686115822EB6F4A00946B39 /* Weather.swift in Sources */,
-				1686115522EB6F3400946B39 /* CalendarCollectionViewController.swift in Sources */,
+				160BF48E22EF69F40076C654 /* CalendarViewController.swift in Sources */,
+				161A94E422FCC55D0030E053 /* IndexPlantDetailViewController.swift in Sources */,
+				16C1B47D22F8EB8400CCE1A2 /* ForecastWeather.swift in Sources */,
+				16C1B47B22F8EAB100CCE1A2 /* Location.swift in Sources */,
+				16384B7522EF6E320033A2B0 /* DateCollectionViewCell.swift in Sources */,
 				16F89AFE22E8ECA8003668FC /* AppDelegate.swift in Sources */,
+				160D2F5722F2011B006CBC73 /* FirebaseDatabase.swift in Sources */,
 				16F89B1422E8ED9B003668FC /* PlantController.swift in Sources */,
 				1686114E22E9007100946B39 /* PlantIndexViewController.swift in Sources */,
-				1686115C22EB6F5F00946B39 /* DateHelper.swift in Sources */,
-				1686116522EB7E3E00946B39 /* WeatherCollectionViewController.swift in Sources */,
 				1686115022E9008100946B39 /* PlantListTableViewController.swift in Sources */,
+				167C622E22F9DD4A00541671 /* ForecastTableViewCell.swift in Sources */,
+				16384B7722EF6ED80033A2B0 /* Calendar.swift in Sources */,
+				160D2F5322F200CA006CBC73 /* WeatherForecastViewController.swift in Sources */,
+				16C1B47922F8E9ED00CCE1A2 /* Extensions.swift in Sources */,
 				16F89B1222E8ED93003668FC /* Plant.swift in Sources */,
+				169BE56522FDDD370052F81C /* CalendarAnimation.swift in Sources */,
 				1686114C22E9006300946B39 /* PlantDetailViewController.swift in Sources */,
-				1686115A22EB6F5200946B39 /* WeatherController.swift in Sources */,
+				16C1B47422F8C8C400CCE1A2 /* WeatherController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1686115122EA315100946B39 /* PlantList.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1686115222EA315100946B39 /* Base */,
-			);
-			name = PlantList.storyboard;
-			sourceTree = "<group>";
-		};
 		16F89B0122E8ECA8003668FC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -460,7 +484,7 @@
 		};
 		16F89B0D22E8ECA9003668FC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F638075CA77FCDCBD993D23 /* Pods-Companion_Plant.debug.xcconfig */;
+			baseConfigurationReference = 273214F9E25E084556FF7678 /* Pods-Companion_Plant.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -479,7 +503,7 @@
 		};
 		16F89B0E22E8ECA9003668FC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1D3A6A88E31E21EBF40CFF5 /* Pods-Companion_Plant.release.xcconfig */;
+			baseConfigurationReference = 3CD421660E02918B5C214D05 /* Pods-Companion_Plant.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

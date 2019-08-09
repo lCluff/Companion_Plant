@@ -10,21 +10,41 @@ import UIKit
 
 class PlantDetailViewController: UIViewController {
 
+    @IBOutlet weak var customImageView: UIImageView!
+    @IBOutlet weak var lifespanLabel: UILabel!
+    @IBOutlet weak var rootDepthLabel: UILabel!
+    @IBOutlet weak var shadeToleranceLabel: UILabel!
+    @IBOutlet weak var waterMaxLabel: UILabel!
+    @IBOutlet weak var waterMinLabel: UILabel!
+    @IBOutlet weak var edibleLabel: UILabel!
+    @IBOutlet weak var coldToleranceLabel: UILabel!
+    @IBOutlet weak var growthHabitLabel: UILabel!
+    @IBOutlet weak var bloomPeriodLabel: UILabel!
+    @IBOutlet weak var nameTextField: UITextField!
+    
+    
+    
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
-    /*
     // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        
     }
-    */
+    
+    var plant: Plant? {
+        didSet {
+            loadViewIfNeeded()
+            updateViews()
+        }
+    }
+    
+    func updateViews() {
+        
+    }
 
 }
